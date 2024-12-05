@@ -1,5 +1,4 @@
 # Interactive BlackJack
-
 ## Description:
 Have you ever wanted to **2x** your money?? How about **10x**??? With our new app, you can get the rush of winning big, without any of the risk, anywhere, anytime.
 Our app is recreating the card game BlackJack. The user will be dealt two random cards and then decide whether to add another card to their deck. (The player can have two options: stand or draw a card.) The player loses if their hand values are over 21 or the dealer has a higher hand less than 21. The ACE is worth 1 or 11 depending on whether the player exceeds 21. Face cards are worth 10 each. All other cards are worth the number written on the card. The user bets before each game and their overall balance is tracked.
@@ -16,7 +15,7 @@ $ sudo apt install libsdl2-ttf-dev
 and continue with signing into your administrator account (don't forget to sign out later!). <br />
 Then, create the executable file: <br />
 ```
-$ make gui_blackjack
+$ make
 ```
 Finally, run: <br /> 
 ```
@@ -26,3 +25,5 @@ and allow the computer to run the GUI!
 
 
 Enjoy!!
+
+##### This project was initially our final project for SFWRENG 2XC3; upon completing the course, I have added some of my individual contributions here, on my personal github. More updates will be added to this code (by me) soon!
