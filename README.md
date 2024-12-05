@@ -5,19 +5,6 @@ Have you ever wanted to **2x** your money?? How about **10x**??? With our new ap
 Our app is recreating the card game BlackJack. The user will be dealt two random cards and then decide whether to add another card to their deck. (The player can have two options: stand or draw a card.) The player loses if their hand values are over 21 or the dealer has a higher hand less than 21. The ACE is worth 1 or 11 depending on whether the player exceeds 21. Face cards are worth 10 each. All other cards are worth the number written on the card. The user bets before each game and their overall balance is tracked.
 
 ## Usage:
-Our code is split into two different components, making it more accessible to play.
-
-### Command-Line:
-To run the code in the command line, use the command: <br />
- ```
- $ make
-``` 
-to make the executable file, and then: <br />
-```
-$ ./blackjack
-```
-and follow the on screen instructions to play.
-
 ### GUI:
 To play the game using the GUI, you first must install the necessary dependencies. To install Simple DirectMedia Layer 2 (sdl2) use these two command: <br />
 ```
